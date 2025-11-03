@@ -1,0 +1,9 @@
+# GitHub App configuration
+name: pbrain-dev
+description: Autopsy button for every repo
+url: https://pbrain-git-main-stringth30rys-projects.vercel.app/
+default_permissions:
+  issues: write
+  contents: read
+default_events:
+  - issue_comment
